@@ -38,6 +38,7 @@ FACTS = {
 }
 
 # Content rotation: (photo filename in raw/, headline, subline, badge)
+# headline/subline/badge are baked into the poster image overlay.
 VARIANTS = [
     ("classroom-teaching.jpg", "New Batch Starts 10th!",
      "Digital Marketing + AI course • ₹16,000 • Job assistance included", "₹16,000"),
@@ -59,6 +60,35 @@ VARIANTS = [
      "Next batch starts 10th in Aligarh. Limited seats, job assistance included.", "NEW BATCH"),
     ("classroom-room2.jpg", "Build a Career in Digital Marketing + AI",
      "Hands-on training every month in Aligarh — job assistance after course completion.", "JOB READY"),
+]
+
+# Social-post captions, written separately from the image overlay text so the
+# GMB post doesn't just repeat the poster headline/subline verbatim. Each one
+# is a distinct, human-sounding update tied to that variant's photo. Keep
+# these grounded in FACTS above — vary the wording and the keyword phrasing
+# (best digital marketing course / institute / training in Aligarh), don't
+# use the same opening line or the same keyword phrase two days running.
+CAPTIONS = [
+    # 0 classroom-teaching.jpg — new batch announcement
+    "New batch of our Digital Marketing + AI course kicks off on the 10th. If you've been putting off learning digital marketing properly — ads, SEO, content, and now AI tools — this is a good month to start. Classroom training in Aligarh, ₹16,000, job assistance included once you finish. Seats are limited, so reach out early if you want in. digitalalig.com",
+    # 1 certificate-1on1-a.jpg — one student receiving certificate
+    "Handed over another certificate today — always a good feeling. This student put in the work through our Digital Marketing + AI course and came out the other side job-ready, not just certificate-ready. That's the part we care about most: what happens after the course, not just during it. Placement support included for everyone who completes the program. Aligarh batches, ₹16,000.",
+    # 2 classroom-1.jpg — hands-on training in progress
+    "This is what a regular class looks like at DigitalAlig — no long lecture slides, just live projects and real campaigns students actually run. It's why people tell us we run one of the best digital marketing courses in Aligarh: you learn by doing, not by memorizing. Digital Marketing + AI, ₹16,000, job assistance after. New batch starts the 10th.",
+    # 3 certificate-group.jpg — group of graduates with certificates
+    "Another batch, another set of success stories. These are students who just finished our Digital Marketing + AI course here in Aligarh — certificates in hand, ready to put it to work. Looking for the best digital marketing course or institute in Aligarh? Here's what finishing one actually looks like: hands-on campaigns, real tools, and genuine job assistance once you're done — not just a certificate for the wall. New batches start on the 10th of every month, ₹16,000 all inclusive. digitalalig.com",
+    # 4 classroom-2.jpg — seats filling up
+    "A few seats left for next month's Digital Marketing + AI batch. We keep our classroom sizes small on purpose — easier to actually teach people instead of just talking at a room. ₹16,000, starts the 10th, job assistance included when you're done. If you're in Aligarh and comparing digital marketing institutes, come sit in on a class before you decide.",
+    # 5 certificate-1on1-b.jpg — another student, placement story
+    "From sitting in our classroom to holding a completion certificate — that's the whole point of the course. Every student who finishes our Digital Marketing + AI program gets placement support, because a certificate on its own doesn't pay rent. If that's the kind of course you're after, we're in Aligarh and happy to talk you through what it actually covers.",
+    # 6 classroom-3.jpg — practical training
+    "A lot of people ask what makes a digital marketing course worth the money. Our answer: you should be running real ad accounts and real content calendars before you graduate, not just watching someone else do it. That's how we teach Digital Marketing + AI at DigitalAlig in Aligarh. ₹16,000, new batch every month starting the 10th, job assistance included.",
+    # 7 classroom-teaching.jpg — why choose us
+    "Thinking about which digital marketing institute to join in Aligarh? Here's the honest pitch: real campaigns instead of theory, AI tools folded into the course (not bolted on), and job assistance after you finish — not just a diploma. ₹16,000 for the full Digital Marketing + AI course, next batch starts the 10th. Happy to answer questions before you commit.",
+    # 8 classroom-4.jpg — course overview, limited seats
+    "Digital marketing without AI skills is half a toolkit these days — our course covers both together, not as an afterthought. Next batch starts the 10th in Aligarh, ₹16,000, job assistance included, and seats are limited so we can actually give people attention. If you've been comparing digital marketing courses nearby, come ask us anything first.",
+    # 9 classroom-room2.jpg — career building
+    "Watched a few more students build the start of a digital marketing career this month — that's really what the course is for. Hands-on Digital Marketing + AI training in Aligarh, ₹16,000, job assistance once you complete it, new batch every 10th. If you're serious about switching into this field, we'd rather you visit and ask questions than just read an ad.",
 ]
 
 
@@ -160,7 +190,7 @@ def main():
 
     make_post(os.path.join(RAW_DIR, photo), out_path, headline, subline, badge)
 
-    caption = f"{headline} {subline}".strip()
+    caption = CAPTIONS[idx]
 
     state["next_index"] = idx + 1
     with open(STATE_FILE, "w") as fh:
