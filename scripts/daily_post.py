@@ -44,6 +44,14 @@ VARIANTS = [
      "Digital Marketing + AI course • ₹16,000 • Job assistance included", "₹16,000"),
     ("certificate-1on1-a.jpg", "Real Certificates. Real Careers.",
      "Our students complete live projects and get placement support after the course.", "JOB READY"),
+    ("classroom-videoedit-1.jpg", "Hands-On Classes, Every Week",
+     "Live sessions where students work with real tools, not just slides.", "ALIGARH"),
+    ("classroom-videoedit-2.jpg", "Learning By Doing",
+     "Digital Marketing + AI, taught hands-on in Aligarh.", "NEW BATCH"),
+    ("classroom-videoedit-3.jpg", "Inside a DigitalAlig Classroom",
+     "Small batches, hands-on training, real tools — Aligarh.", "JOB READY"),
+    ("classroom-videoedit-4.jpg", "Every Batch Gets Hands-On Time",
+     "Digital Marketing + AI, taught live in Aligarh classrooms.", "₹16,000"),
     ("classroom-1.jpg", "Hands-On Digital Marketing + AI Training",
      "Live projects, not just slides. Classroom batches running now in Aligarh.", "ALIGARH"),
     ("certificate-group.jpg", "DigitalAlig Success Stories",
@@ -73,21 +81,29 @@ CAPTIONS = [
     "New batch of our Digital Marketing + AI course kicks off on the 10th. If you've been putting off learning digital marketing properly — ads, SEO, content, and now AI tools — this is a good month to start. Classroom training in Aligarh, ₹16,000, job assistance included once you finish. Seats are limited, so reach out early if you want in. digitalalig.com",
     # 1 certificate-1on1-a.jpg — one student receiving certificate
     "Handed over another certificate today — always a good feeling. This student put in the work through our Digital Marketing + AI course and came out the other side job-ready, not just certificate-ready. That's the part we care about most: what happens after the course, not just during it. Placement support included for everyone who completes the program. Aligarh batches, ₹16,000.",
-    # 2 classroom-1.jpg — hands-on training in progress
+    # 2 classroom-videoedit-1.jpg — hands-on session in progress
+    "Another hands-on session in progress — students working through real tools and real workflows as part of our Digital Marketing + AI course. We keep sessions practical on purpose; you learn faster by doing than by watching someone else do it. Aligarh batches, ₹16,000, job assistance included. New batch starts the 10th.",
+    # 3 classroom-videoedit-2.jpg — laptops open, screens on
+    "Our classroom stays full of laptops open and screens on — that's deliberate. The Digital Marketing + AI course is built around actually doing the work, not just taking notes. ₹16,000, job assistance after you finish, next batch starts the 10th. digitalalig.com",
+    # 4 classroom-videoedit-3.jpg — inside a regular class
+    "A quick look inside one of our regular classes. Every student gets hands-on time with real tools as part of the Digital Marketing + AI course — that's what we mean when we say job-ready, not just certificate-ready. Placement support included. Aligarh, ₹16,000.",
+    # 5 classroom-videoedit-4.jpg — hands-on time every batch
+    "Sessions like this are why people ask us what makes our digital marketing course different — students get hands-on time with real tools every class, not just lecture slides. ₹16,000, job assistance included, new batch starts the 10th. digitalalig.com",
+    # 6 classroom-1.jpg — hands-on training in progress
     "This is what a regular class looks like at DigitalAlig — no long lecture slides, just live projects and real campaigns students actually run. It's why people tell us we run one of the best digital marketing courses in Aligarh: you learn by doing, not by memorizing. Digital Marketing + AI, ₹16,000, job assistance after. New batch starts the 10th.",
-    # 3 certificate-group.jpg — group of graduates with certificates
+    # 7 certificate-group.jpg — group of graduates with certificates
     "Another batch, another set of success stories. These are students who just finished our Digital Marketing + AI course here in Aligarh — certificates in hand, ready to put it to work. Looking for the best digital marketing course or institute in Aligarh? Here's what finishing one actually looks like: hands-on campaigns, real tools, and genuine job assistance once you're done — not just a certificate for the wall. New batches start on the 10th of every month, ₹16,000 all inclusive. digitalalig.com",
-    # 4 classroom-2.jpg — seats filling up
+    # 8 classroom-2.jpg — seats filling up
     "A few seats left for next month's Digital Marketing + AI batch. We keep our classroom sizes small on purpose — easier to actually teach people instead of just talking at a room. ₹16,000, starts the 10th, job assistance included when you're done. If you're in Aligarh and comparing digital marketing institutes, come sit in on a class before you decide.",
-    # 5 certificate-1on1-b.jpg — another student, placement story
+    # 9 certificate-1on1-b.jpg — another student, placement story
     "From sitting in our classroom to holding a completion certificate — that's the whole point of the course. Every student who finishes our Digital Marketing + AI program gets placement support, because a certificate on its own doesn't pay rent. If that's the kind of course you're after, we're in Aligarh and happy to talk you through what it actually covers.",
-    # 6 classroom-3.jpg — practical training
+    # 10 classroom-3.jpg — practical training
     "A lot of people ask what makes a digital marketing course worth the money. Our answer: you should be running real ad accounts and real content calendars before you graduate, not just watching someone else do it. That's how we teach Digital Marketing + AI at DigitalAlig in Aligarh. ₹16,000, new batch every month starting the 10th, job assistance included.",
-    # 7 classroom-teaching.jpg — why choose us
+    # 11 classroom-teaching.jpg — why choose us
     "Thinking about which digital marketing institute to join in Aligarh? Here's the honest pitch: real campaigns instead of theory, AI tools folded into the course (not bolted on), and job assistance after you finish — not just a diploma. ₹16,000 for the full Digital Marketing + AI course, next batch starts the 10th. Happy to answer questions before you commit.",
-    # 8 classroom-4.jpg — course overview, limited seats
+    # 12 classroom-4.jpg — course overview, limited seats
     "Digital marketing without AI skills is half a toolkit these days — our course covers both together, not as an afterthought. Next batch starts the 10th in Aligarh, ₹16,000, job assistance included, and seats are limited so we can actually give people attention. If you've been comparing digital marketing courses nearby, come ask us anything first.",
-    # 9 classroom-room2.jpg — career building
+    # 13 classroom-room2.jpg — career building
     "Watched a few more students build the start of a digital marketing career this month — that's really what the course is for. Hands-on Digital Marketing + AI training in Aligarh, ₹16,000, job assistance once you complete it, new batch every 10th. If you're serious about switching into this field, we'd rather you visit and ask questions than just read an ad.",
 ]
 
