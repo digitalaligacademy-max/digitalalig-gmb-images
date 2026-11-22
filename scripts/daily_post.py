@@ -68,6 +68,8 @@ VARIANTS = [
      "Next batch starts 10th in Aligarh. Limited seats, job assistance included.", "NEW BATCH"),
     ("classroom-room2.jpg", "Build a Career in Digital Marketing + AI",
      "Hands-on training every month in Aligarh — job assistance after course completion.", "JOB READY"),
+    ("storefront-exterior.jpg", "Find Us in Aligarh",
+     "Digital Marketing + AI training institute • ₹16,000 • Job assistance included", "WALK IN"),
 ]
 
 # Social-post captions, written separately from the image overlay text so the
@@ -105,6 +107,8 @@ CAPTIONS = [
     "Digital marketing without AI skills is half a toolkit these days — our course covers both together, not as an afterthought. Next batch starts the 10th in Aligarh, ₹16,000, job assistance included, and seats are limited so we can actually give people attention. If you've been comparing digital marketing courses nearby, come ask us anything first.",
     # 13 classroom-room2.jpg — career building
     "Watched a few more students build the start of a digital marketing career this month — that's really what the course is for. Hands-on Digital Marketing + AI training in Aligarh, ₹16,000, job assistance once you complete it, new batch every 10th. If you're serious about switching into this field, we'd rather you visit and ask questions than just read an ad.",
+    # 14 storefront-exterior.jpg — institute entrance/signage
+    "This is us — DigitalAlig's institute in Aligarh. If you've been comparing digital marketing courses online and want to actually walk in, meet the trainers, and ask questions before signing up, our doors are open. Digital Marketing + AI course, ₹16,000, job assistance included, new batch starts the 10th. digitalalig.com",
 ]
 
 
